@@ -192,3 +192,99 @@ body {
 }
 
 /* End of Hero Section */
+/* End of Hero Section */
+.build-section-bg-color {
+  padding: 198px 0 140px 0;
+  background-color: #012F34;
+}
+
+.build-section-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-box {
+  width: 445px;
+  position: relative;
+}
+
+.left-box::before {
+  position: absolute;
+  top: -54px;
+  left: 0;
+  width: 50px;
+  height: 4px;
+  background-color: var(--main--text-main-color);
+  ;
+  content: "";
+}
+
+.left-box__h2 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  color: var(--main-text-color);
+}
+
+.right-list {
+  position: relative;
+  padding-left: 0;
+  list-style: none;
+}
+
+.right-list::after {
+  position: absolute;
+  top: 76.5%;
+  right: -56%;
+  width: 200px;
+  height: 244px;
+  display: block;
+  background-image: url("../images/Group8.svg");
+  background-repeat: no-repeat;
+  content: "";
+}
+
+.right-list__items {
+  position: relative;
+  width: 540px;
+  margin-bottom: 32px;
+  display: flex;
+}
+
+.right-list__items::before {
+  position: absolute;
+  top: 12%;
+  left: -19%;
+  width: 72px;
+  height: 72px;
+  display: block;
+  margin-right: 10px;
+  background-image: url("../images/Group11.svg");
+  background-repeat: no-repeat;
+  content: "";
+}
+
+.right-list__items:nth-child(2)::before {
+  background-image: url("../images/Group12.svg");
+}
+
+.right-list__items:nth-child(3)::before {
+
+  background-image: url("../images/Group13.svg");
+}
+
+.right-list__items__h3 {
+  margin: 0 0 10px 0;
+  font-weight: 700;
+  line-height: 28px;
+  color: var(--main--text-main-color);
+}
+
+.right-list__items__p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--main-text-color);
+  opacity: 0.8;
+}
