@@ -542,6 +542,7 @@ body {
 }
 
 .about-hero-part__title {
+  margin: 0;
   font-family: 'Livvic';
   font-style: normal;
   font-weight: 700;
@@ -565,6 +566,7 @@ body {
 }
 
 .about-hero-part__text {
+  margin: 0;
   padding-top: 40px;
   font-family: 'Livvic';
   font-style: normal;
