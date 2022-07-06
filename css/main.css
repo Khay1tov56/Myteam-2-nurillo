@@ -192,7 +192,6 @@ body {
 }
 
 /* End of Hero Section */
-/* End of Hero Section */
 .build-section-bg-color {
   padding: 198px 0 140px 0;
   background-color: #012F34;
@@ -288,3 +287,104 @@ body {
   color: var(--main-text-color);
   opacity: 0.8;
 }
+
+
+/* Start Delivery Section */
+#delivery {
+  padding: 140px 0 151px 0;
+  background-color: #004047;
+  background-image: url('../images/delivery-bg-img.svg'), url('../images/delivery-bg-img-2.svg');
+  background-position: calc(50% - 690px) calc(50% - 293px), calc(50% + 660px) calc(50% + 293px);
+  background-repeat: no-repeat;
+}
+
+.delivery-part__title-box {
+  width: 932px;
+  margin: 0 auto;
+}
+
+.delivery-part__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: var(--main-text-color);
+}
+
+.delivery-part__title span {
+  color: #79C8C7;
+}
+
+.delivery-part__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 56px;
+  padding: 0;
+  list-style: none;
+}
+
+.delivery-item {
+  position: relative;
+  width: 350px;
+  padding-top: 50px;
+  text-align: center;
+  background-image: url('../images/sign.svg');
+  background-repeat: no-repeat;
+  background-position: calc(50% + 0px) calc(50% - 67px);
+}
+
+.delivery-item::before {
+  width: 67px;
+  height: 56px;
+  background-image: url('../images/sign.svg');
+  background-repeat: no-repeat;
+  content: '';
+}
+
+.delivery-item::after {
+  position: absolute;
+  bottom: -87px;
+  left: 40%;
+  width: 67px;
+  height: 56px;
+  background-image: url('../images/kady-baker.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  content: '';
+}
+
+.delivery-item:nth-child(2):after {
+  background-image: url('../images/aisha-reese.png');
+}
+
+.delivery-item:nth-child(3):after {
+  background-image: url('../images/artur-clarke.png');
+}
+
+.delivery-item__text-box {
+  z-index: 10 !important;
+}
+
+.delivery-item__text {
+  margin: 0;
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--main-text-color);
+}
+
+.delivery-iten-naming {
+  margin: 24px 0 2px 0;
+  line-height: 28px;
+  color: #79C8C7;
+}
+
+.delivery-item__work-info {
+  margin: 0;
+  font-size: 13px;
+  line-height: 18px;
+  color: var(--main-text-color);
+}
+
+/* End of Delivery Section */
