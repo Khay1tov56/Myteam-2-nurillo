@@ -251,6 +251,8 @@ body {
   display: flex;
 }
 
+
+
 .right-list__items::before {
   position: absolute;
   top: 12%;
@@ -273,14 +275,14 @@ body {
   background-image: url("../images/Group13.svg");
 }
 
-.right-list__items__h3 {
+.r-l-items__h3 {
   margin: 0 0 10px 0;
   font-weight: 700;
   line-height: 28px;
   color: var(--main--text-main-color);
 }
 
-.right-list__items__p {
+.r-l-items__p {
   margin: 0;
   font-size: 15px;
   line-height: 25px;
@@ -527,19 +529,19 @@ body {
 }
 
 
-.about-hero__part {
+.about-hero-part {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 
 }
 
-.about-hero__title-box {
+.about-hero-part__title-box {
   width: 350px;
   height: 100px;
 }
 
-.about-hero__title {
+.about-hero-part__title {
   font-family: 'Livvic';
   font-style: normal;
   font-weight: 700;
@@ -549,12 +551,12 @@ body {
   color: var(--main-text-color);
 }
 
-.about-hero__text-box {
+.about-hero-part__text-box {
   width: 732px;
   height: 112px;
 }
 
-.about-hero__text-box::before {
+.about-hero-part__text-box::before {
   content: '';
   width: 50px;
   height: 4px;
@@ -562,7 +564,7 @@ body {
   display: block;
 }
 
-.about-hero__text {
+.about-hero-part__text {
   padding-top: 40px;
   font-family: 'Livvic';
   font-style: normal;
