@@ -497,3 +497,58 @@ body {
   opacity: 0.6;
 }
 /* end footer part */
+/* Start about-hero */
+
+#about-hero{
+  background-image: url(../images/Group\ 9.svg);
+  background-repeat: no-repeat;
+  background-position: calc(50% + 675px) calc(100% + 0px);
+  background-color:var(--main-bg-color);
+  padding: 46px 0 272px 0;
+}
+
+
+.about-hero__part{
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-start;
+
+}
+
+.about-hero__title-box{
+  width: 350px;
+  height: 100px;
+}
+
+.about-hero__title{
+  font-family: 'Livvic';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 100px;
+margin: 0;
+color:var(--main-text-color);
+}
+
+.about-hero__text-box{
+  width: 732px;
+  height: 112px;
+}
+
+.about-hero__text-box::before{
+  content: '';
+  width: 50px;
+  height: 4px;
+  background-color: var(--main--text-main-color);
+display: block;
+}
+
+.about-hero__text{
+  padding-top: 40px;
+  font-family: 'Livvic';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+color:var(--main-text-color);
+} 
