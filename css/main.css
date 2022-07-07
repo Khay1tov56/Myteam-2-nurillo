@@ -490,7 +490,7 @@ body {
   margin-left: auto;
 }
 
-.footer-box__social-icons-list{
+.footer-box__social-icons-list {
   display: flex;
   justify-content: space-between;
   width: 104px;
@@ -541,7 +541,6 @@ body {
 
 .about-hero-part__title {
   margin: 0;
-  font-family: 'Livvic';
   font-style: normal;
   font-weight: 700;
   font-size: 64px;
@@ -565,10 +564,7 @@ body {
 .about-hero-part__text {
   margin: 0;
   padding-top: 40px;
-  font-family: 'Livvic';
   font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
   line-height: 28px;
   color: var(--main-text-color);
 }
@@ -697,13 +693,12 @@ body {
   margin-right: 16px;
 }
 
-.director-item__info-icon-link
-.director-item__info-icon path {
+.director-item__info-icon-link .director-item__info-icon path {
   transition: fill .5s;
 }
 
 .director-item__info-icon-link:hover .director-item__info-icon path {
-  fill: #F67E7E;
+  fill: var(--main--text-main-color);
 }
 
 .director-item__changer-btn {
@@ -756,7 +751,7 @@ body {
   font-size: 48px;
   line-height: 48px;
   text-align: center;
-  color: #FFFFFF;
+  color: var(--main-text-color);
 }
 
 .clients-part__clients-list {
@@ -815,3 +810,159 @@ body {
 }
 
 /* end article part */
+
+
+/* ------ Start Contact Page ------ */
+
+/* Start Contact hero Section */
+#contact {
+  padding: 62px 0 114px 0;
+  background-color: #014E56;
+}
+
+.contact-part {
+  display: flex;
+}
+
+.contact-info {
+  width: 540px;
+}
+
+.contact-info__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100px;
+  color: var(--main-text-color);
+}
+
+.contact-info__text-box-title {
+  margin: 16px 0 32px 0;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: var(--main--text-main-color);
+}
+
+.contact-info__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.contact-info__item {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--main-text-color);
+  list-style: none;
+}
+
+.contact-info__item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.contact-info__item::before {
+  width: 72px;
+  height: 72px;
+  margin-right: 23px;
+  background-image: url('../images/Group11.svg');
+  background-repeat: no-repeat;
+  content: '';
+}
+
+.contact-info__item:nth-child(2):before {
+  background-image: url('../images/Group12.svg');
+}
+
+.contact-info__item:nth-child(3):before {
+  background-image: url('../images/Group13.svg');
+}
+
+.contact-form-box {
+  width: 540px;
+}
+
+.contact-form-box__label {
+  position: relative;
+}
+
+.contact-form-box__input {
+  width: 540px;
+  margin-bottom: 30px;
+  padding: 0 16px 16px;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: -0.115385px;
+  color: var(--main-text-color);
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid var(--main-text-color);
+}
+
+.contact-form-box__input::placeholder,
+.contact-form-box__message::placeholder {
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: -0.115385px;
+  color: var(--main-text-color);
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+
+.contact-form-box__error {
+  position: absolute;
+  top: 50px;
+  left: 16px;
+  opacity: 0;
+  font-size: 10px;
+  line-height: 12px;
+  color: var(--main--text-main-color);
+  white-space: nowrap;
+}
+
+.contact-form-box__input:not(:placeholder-shown):not(:focus):valid {
+  border-bottom: 1px solid #79C8C7;
+}
+
+.contact-form-box__input:not(:placeholder-shown):not(:focus):invalid {
+  color: var(--main--text-main-color);
+  opacity: 0.6;
+  border-bottom: 1px solid var(--main--text-main-color);
+}
+
+.contact-form-box__input:not(:placeholder-shown):not(:focus):invalid+.contact-form-box__error {
+  opacity: 1;
+}
+
+.contact-form-box__message {
+  width: 540px;
+  height: 84px;
+  padding: 5px 16px 0 16px;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: -0.115385px;
+  color: var(--main-text-color);
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid var(--main-text-color);
+  resize: none;
+}
+
+.contact-form-box__btn {
+  margin-top: 24px;
+  padding: 9px 32px 11px 32px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #004047;
+  background: var(--main-text-color);
+  border: 2px solid var(--main-text-color);
+  border-radius: 24px;
+}
+
+/* End of Contact hero Section */
+
+/* ------ End Contact Page ------ */
